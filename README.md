@@ -263,4 +263,8 @@ This is how my assembled PCB is supposed to look like:<img width="775" height="5
 My PCB 2 Schematics: <img width="1012" height="507" alt="image" src="https://github.com/user-attachments/assets/89664a26-3bea-422d-86d6-d74da3a49a03" />
 My second PCB design:<img width="802" height="801" alt="image" src="https://github.com/user-attachments/assets/d3ce81d4-88bd-4bde-b472-731fd6fc09be" />
 My second PCB assembled Look:<img width="758" height="757" alt="image" src="https://github.com/user-attachments/assets/ccc91687-56f0-44ed-a58b-bb29668ef952" />
+How my Case and the finished product is supposed to look:
+<img width="780" height="800" alt="image" src="https://github.com/user-attachments/assets/9342a92f-a7f2-4732-b25c-41be29fbdc78" />
+<img width="686" height="822" alt="image" src="https://github.com/user-attachments/assets/4ae548f6-94f7-435b-b121-8e6bd0e4b150" />
+<img width="503" height="677" alt="image" src="https://github.com/user-attachments/assets/df9c3501-745c-4bb7-b33d-4da8079fb5f0" />
 
