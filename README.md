@@ -312,6 +312,7 @@ BOM:
 | ATmega328-PU | 2 | Robu.in | https://robu.in/product/atmega328-pu-microchip-8-bit-microcontroller-avr-atmega-family-atmega328-series-microcontrollers-20-mhz-1-kb-32-kb/ |
 | TPS54202DDCR | 2 | Robu.in | https://robu.in/product/tps54202ddcr-texas-instruments-step-down-type-adjustable-2a-4-5v28v-sot-23-6-dc-dc-converters-rohs/ |
 | MCP4725A0T-E/CH | 2 | Robu.in | https://robu.in/product/mcp4725a0t-e-ch-microchip-tech-6us-i2c-2lsb-2-7v5-5v-12-sot-23-6-digital-to-analog-converters-dac-rohs/ |
+|24V Adapter DC||1||Amazon||https://www.amazon.in/Shapure-Adapter-Purifier-Converter-Warranty/dp/B09B2QC5DG/ref=sr_1_3?crid=3QK3BS6AOUQGM&dib=eyJ2IjoiMSJ9.z5ReBGRa2kELup8lCjC9Z7aZuXaMR9FyGI59wlhLV9FMg2_YwJbg-YGzdv5CkLi6aMEvTBOCxrnhVwAJYl9CR0xRAVpL0OUx6rveTMBEYwV-mfzAP5N47bOksV7mx_d-q-OOJnq-4oGTEWsJdjWCeMDMi4jjhaLBmjWdgFatwtrf7cfvZgy4Otxe9zJH1EiS2ARtcMDir2YeDqLj4Z12yNAxxOiE48LgPSrV04CDX3I.cCkpyZVzpHKVdfWwwR1xSpiSNuYyTB53HvmkVU3qjbI&dib_tag=se&keywords=24V+dc+adapter&qid=1791563890&sprefix=24v+dc+adapt%2Caps%2C314&sr=8-3|
 
 ---
 
@@ -331,6 +332,7 @@ BOM:
 | Source | Cost |
 |---------|------:|
 | Robu.in Components | $17.69 |
+|Amazon.in||$4.6|
 
 ---
 
@@ -359,4 +361,5 @@ BOM:
 |----------------|--------:|
 | JLCPCB Manufacturing (PCB + PCBA + Shipping) | $187.73 |
 | Robu.in Components | $17.69 |
-| **Total Project Cost** | **$205.42** |
+|Amazon.in||4.6$|
+| **Total Project Cost** | **$210.02** |
