@@ -1,4 +1,3 @@
-# Custom Programmable Bench Power Supply
 
 ## About This Project
 
@@ -268,3 +267,97 @@ How my Case and the finished product is supposed to look:
 <img width="686" height="822" alt="image" src="https://github.com/user-attachments/assets/4ae548f6-94f7-435b-b121-8e6bd0e4b150" />
 <img width="503" height="677" alt="image" src="https://github.com/user-attachments/assets/df9c3501-745c-4bb7-b33d-4da8079fb5f0" />
 
+BOM:
+# Bill of Materials (BOM)
+
+| Designator(s) | Component | Quantity | Description | Source |
+|--------------|------------|----------|-------------|---------|
+| U1 | ATmega328P | 1 | Main microcontroller | Robu.in |
+| U2 | CH340G | 1 | USB-to-UART interface | JLCPCB |
+| U3 | MCP4725A0T-E/CH | 1 | 12-bit DAC for voltage control | Robu.in |
+| U4 | INA260 | 1 | Voltage, current, and power monitor | JLCPCB |
+| U5 | LM5116MHX | 1 | Synchronous buck controller | JLCPCB |
+| U6 | LM51231QRGRRQ1 | 1 | Synchronous boost controller | JLCPCB |
+| U11 | TPS54202DDCR | 1 | Auxiliary buck regulator | Robu.in |
+| U8, U9, U10 | MAX7219M/TR | 3 | LED display drivers | JLCPCB |
+| Q1, Q2, Q5, Q6 | SI7850DP | 4 | Power MOSFETs | Robu.in |
+| Q3, Q4 | BSC014N06NS | 2 | Boost stage power MOSFETs | JLCPCB |
+| L1 | 10 µH Inductor | 1 | Power filtering inductor | JLCPCB |
+| L2 | 8.2 µH Inductor | 1 | Main buck converter inductor | JLCPCB |
+| L3 | 6 µH Inductor | 1 | Boost converter inductor | JLCPCB |
+| D1, D2 | SMBJ33A | 2 | TVS surge protection diodes | JLCPCB |
+| D3 | CMPD2003 | 1 | Signal diode | JLCPCB |
+| U7 | 2920L500/30GR | 1 | Resettable polyfuse | JLCPCB |
+| DC1 | DC-005-A200 | 1 | DC barrel jack input | JLCPCB |
+| J1 | USB Type-C Receptacle | 1 | USB connectivity | JLCPCB |
+| J2, J4, J5 | 2×6 Pin Header | 3 | Expansion/programming headers | JLCPCB |
+| J3 | 2-Pin Screw Terminal | 1 | PSU output connector | JLCPCB |
+| J6, J7 | 1×3 Pin Header | 2 | Auxiliary headers | JLCPCB |
+| Y1 | 16 MHz Crystal | 1 | ATmega328P clock source | JLCPCB |
+| Y2 | 12 MHz Crystal | 1 | CH340G clock source | JLCPCB |
+| SW1, SW2 | EC11 Rotary Encoder | 2 | User input controls | JLCPCB |
+| SW3 | RS601A-1020013BB | 1 | Power/control switch | JLCPCB |
+| LED1, LED2, LED3 | SR420561N | 3 | Seven-segment LED displays | JLCPCB |
+| FB1 | Ferrite Bead | 1 | EMI suppression | JLCPCB |
+| FID1, FID2, FID3 | Fiducials | 3 | PCB assembly alignment markers | JLCPCB |
+| All Capacitors (C1–C41) | Mixed Values | 41 | Decoupling, filtering, compensation, and bulk storage capacitors | JLCPCB |
+| All Resistors (R1–R31) | Mixed Values | 31 | Feedback, sensing, compensation, pull-ups, and current measurement | JLCPCB |
+
+---
+
+## Custom Components Procured Separately
+
+| Component | Quantity | Source | Product Link |
+|------------|----------|---------|-------------|
+| SI7850DP MOSFET | 4 | Robu.in | https://robu.in/product/si7850dp-xblw-60v-30a-34-7w-25m%CF%8910v15a-1-2v250ua-1-n-channel-dfn-8l5x6-mosfets-rohs/ |
+| ATmega328-PU | 2 | Robu.in | https://robu.in/product/atmega328-pu-microchip-8-bit-microcontroller-avr-atmega-family-atmega328-series-microcontrollers-20-mhz-1-kb-32-kb/ |
+| TPS54202DDCR | 2 | Robu.in | https://robu.in/product/tps54202ddcr-texas-instruments-step-down-type-adjustable-2a-4-5v28v-sot-23-6-dc-dc-converters-rohs/ |
+| MCP4725A0T-E/CH | 2 | Robu.in | https://robu.in/product/mcp4725a0t-e-ch-microchip-tech-6us-i2c-2lsb-2-7v5-5v-12-sot-23-6-digital-to-analog-converters-dac-rohs/ |
+
+---
+
+## Manufacturing Cost
+
+| Item | Cost |
+|--------|--------:|
+| PCB Fabrication | $4.00 |
+| PCB Assembly (PCBA) | $165.19 |
+| Shipping | $18.54 |
+| **Total JLCPCB Cost** | **$187.73** |
+
+---
+
+## External Component Cost
+
+| Source | Cost |
+|---------|------:|
+| Robu.in Components | $17.69 |
+
+---
+
+## Project Totals
+
+| Category | Quantity |
+|-----------|---------:|
+| Integrated Circuits | 10 |
+| MOSFETs | 6 |
+| Diodes | 3 |
+| Inductors | 3 |
+| Crystals | 2 |
+| Connectors | 7 |
+| Displays | 3 |
+| Rotary Encoders | 2 |
+| Switches | 1 |
+| Capacitors | 41 |
+| Resistors | 31 |
+| Protection Devices | 3 |
+
+---
+
+# Final Project Cost
+
+| Cost Component | Total |
+|----------------|--------:|
+| JLCPCB Manufacturing (PCB + PCBA + Shipping) | $187.73 |
+| Robu.in Components | $17.69 |
+| **Total Project Cost** | **$205.42** |
