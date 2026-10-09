@@ -256,12 +256,11 @@ This project exposed me to several advanced engineering topics, including:
 This project was designed as much for learning as it was for practicality. The goal was not simply to build another adjustable power supply, but to understand how a modern digitally controlled laboratory PSU is designed from the component level upward.
 
 From the switching converters and measurement circuitry to the display system and firmware-controlled regulation, every major subsystem was intentionally designed and integrated into a single platform. The result is a custom programmable bench power supply capable of delivering up to 30V and 5A while providing a user experience similar to that of commercial laboratory equipment.
-This is what my Schematics are:<img width="992" height="706" alt="image" src="https://github.com/user-attachments/assets/940f5a36-26cc-49d0-92cb-4b0b9f444025" />
-My PCB 1: <img width="1136" height="808" alt="image" src="https://github.com/user-attachments/assets/f67dfec9-7e2b-4582-9b87-fb185ff89411" />
-This is how my assembled PCB is supposed to look like:<img width="775" height="583" alt="image" src="https://github.com/user-attachments/assets/b9cee57a-1dd5-4796-bfe4-ae0873af3c6f" />
-My PCB 2 Schematics: <img width="1012" height="507" alt="image" src="https://github.com/user-attachments/assets/89664a26-3bea-422d-86d6-d74da3a49a03" />
-My second PCB design:<img width="802" height="801" alt="image" src="https://github.com/user-attachments/assets/d3ce81d4-88bd-4bde-b472-731fd6fc09be" />
-My second PCB assembled Look:<img width="758" height="757" alt="image" src="https://github.com/user-attachments/assets/ccc91687-56f0-44ed-a58b-bb29668ef952" />
+This is what my Schematics are: <img width="1081" height="742" alt="image" src="https://github.com/user-attachments/assets/c52d603f-7936-4427-9902-96648162e738" />
+This is how my assembled PCB is supposed to look like:<img width="862" height="598" alt="image" src="https://github.com/user-attachments/assets/9f7bd9cf-4633-46ba-8413-e281c5948e68" />
+My PCB 2 Schematics: <img width="1437" height="696" alt="image" src="https://github.com/user-attachments/assets/88844f6d-5393-414a-8b00-0967007d8f23" />
+My second PCB design:<img width="753" height="788" alt="image" src="https://github.com/user-attachments/assets/1b66dba5-ca1f-4b54-b61b-e53a42a5703a" />
+My second PCB assembled Look:<img width="695" height="737" alt="image" src="https://github.com/user-attachments/assets/fe9c78a5-756c-4320-888d-4db9882f942b" />
 How my Case and the finished product is supposed to look:
 <img width="780" height="800" alt="image" src="https://github.com/user-attachments/assets/9342a92f-a7f2-4732-b25c-41be29fbdc78" />
 <img width="686" height="822" alt="image" src="https://github.com/user-attachments/assets/4ae548f6-94f7-435b-b121-8e6bd0e4b150" />
